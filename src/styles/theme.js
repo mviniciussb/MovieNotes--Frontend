@@ -13,6 +13,6 @@ export default {
     BACKGROUND_3: "#262529",
     BACKGROUND_4: "#312E38",
 
-    PINK: "#FF859B",
+    RED: "#B92B29",
   },
 };
