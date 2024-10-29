@@ -42,18 +42,53 @@ export const Form = styled.form`
 `
 
 export const Avatar = styled.div`
+        position: relative;
+        margin: 0 auto 6.4rem;
+        height: 18.6rem;
+        width: 18.6rem;
+        
+
+        
+
+    > img {
+        height: 18.6rem;
+        width: 18.6rem;
         border-radius: 50%;
-        background-color: red;
+
+        background-color: purple;
+
+        display: flex;
+        justify-self: center;
+    }
 
 
     > label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        bottom: .8rem;
+        right: .8rem;
+
+        width: 4.8rem;
+        height: 4.8rem;
+
+        padding: 1.4rem;
         border-radius: 50%;
-    }
 
-    >img {
-        height: 18.6rem;
-        width: 18.6rem;
-    }
+        background-color: ${({ theme }) => theme.COLORS.RED};
 
+
+        input {
+            display: none;
+        }
+
+        svg {
+            color: ${({ theme }) => theme.COLORS.BACKGROUND_4};
+        }
+
+        cursor: pointer;
+    }
     
 `
