@@ -39,6 +39,10 @@ export const Form = styled.form`
         margin: 2.4rem 0;
     }
 
+    > button {
+        margin-bottom: 6rem;
+    }
+
 `
 
 export const Avatar = styled.div`
@@ -54,8 +58,6 @@ export const Avatar = styled.div`
         height: 18.6rem;
         width: 18.6rem;
         border-radius: 50%;
-
-        background-color: purple;
 
         display: flex;
         justify-self: center;
@@ -86,6 +88,7 @@ export const Avatar = styled.div`
 
         svg {
             color: ${({ theme }) => theme.COLORS.BACKGROUND_4};
+            font-size: 2rem;
         }
 
         cursor: pointer;
