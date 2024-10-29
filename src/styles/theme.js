@@ -12,6 +12,7 @@ export default {
     BACKGROUND_2: "#1C1B1E",
     BACKGROUND_3: "#262529",
     BACKGROUND_4: "#312E38",
+    BACKGROUND_5: "#3E3B47",
 
     RED: "#B92B29",
   },
