@@ -9,18 +9,19 @@ export function Home() {
       <Header />
       <Main>
         <div className="title-page">
-          <h1>
-            Meus filmes
-            <Button
-              title={
-                <>
-                  <FiPlus />
-                  Adicionar filme
-                </>
-              }
-            />
-          </h1>
+          <h1>Meus filmes</h1>
+
+          <Button
+            title={
+              <>
+                <FiPlus />
+                Adicionar filme
+              </>
+            }
+          />
         </div>
+
+        
       </Main>
     </Container>
   );
