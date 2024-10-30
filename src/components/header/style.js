@@ -8,6 +8,8 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-around;
 
+  border-bottom: 0.1rem solid ${({ theme }) => theme.COLORS.BACKGROUND_5};
+
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_2};
 
   > h1 {
@@ -15,20 +17,20 @@ export const Container = styled.header`
     color: ${({ theme }) => theme.COLORS.RED};
   }
 
-  > div {
-    /* width: 58.2rem; */
-    background-color: red;
+  > .input-wrapper {
+    width: 58.2rem;
   }
 `;
 
 export const Avatar = styled.div`
   display: flex;
-  gap: .9rem;
+  gap: 0.9rem;
 
-  > div {
+  > .user-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: end;
 
     span {
       display: flex;
