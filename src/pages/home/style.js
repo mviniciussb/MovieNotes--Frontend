@@ -7,6 +7,9 @@ export const Container = styled.div`
 export const Main = styled.main`
     max-width: 113.7rem;
     margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
     
     > .title-page{
         display: flex;

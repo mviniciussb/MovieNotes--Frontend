@@ -21,6 +21,9 @@ export function Home() {
           />
         </div>
 
+        <section>
+          
+        </section>
         
       </Main>
     </Container>
