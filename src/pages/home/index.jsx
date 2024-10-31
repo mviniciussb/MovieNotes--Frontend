@@ -12,7 +12,7 @@ export function Home() {
       <Header />
       <Main>
         <div className="title-page">
-          <h1>Meus filmes</h1>
+          <h2>Meus filmes</h2>
 
           <Button
             title={
