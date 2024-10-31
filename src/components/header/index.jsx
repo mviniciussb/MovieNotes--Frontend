@@ -7,12 +7,12 @@ export function Header(){
       <Container>
         <h1>RocketMovies</h1>
         
-        <div class="input-wrapper">
+        <div className="input-wrapper">
           <Input placeholder="Pesquisar pelo título" />
         </div>
 
         <Avatar>
-          <div class="user-wrapper">
+          <div className="user-wrapper">
             <span>Marcos Vinicius</span>
             <a href="#">sair</a>
           </div>

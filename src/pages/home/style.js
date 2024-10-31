@@ -19,6 +19,8 @@ export const Main = styled.main`
         h1 {
             font-weight: 400;
             font-size: 3.2rem;
+
+            color: ${({theme}) => theme.COLORS.WHITE_2};
         }
 
 

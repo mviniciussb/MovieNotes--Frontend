@@ -1,6 +1,9 @@
 import { Container, Main } from "./style";
+
 import { Header } from "../../components/header";
 import { Button } from "../../components/button";
+import {Note} from "../../components/note"
+
 import { FiPlus } from "react-icons/fi";
 
 export function Home() {
@@ -22,7 +25,7 @@ export function Home() {
         </div>
 
         <section>
-          
+          <Note/>
         </section>
         
       </Main>
