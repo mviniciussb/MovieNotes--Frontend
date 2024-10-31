@@ -1,10 +1,11 @@
 import { Container } from "./style";
 import { FiStar } from "react-icons/fi";
+import { Tag } from "../tag";
 
-export function Note() {
+export function Note({ title }) {
   return (
     <Container>
-      <h2>Interestellar</h2>
+      <h2>{title}</h2>
 
       <div className="rating">
         <FiStar />
@@ -44,6 +45,12 @@ export function Note() {
         Doyle e atrasando a partida. Ao voltarem para a Endurance, Cooper e
         Amelia descobrem que 23 anos se passaram.
       </p>
+
+      <section>
+        <Tag title="Ficção Científica" />
+        <Tag title="Drama" />
+        <Tag title="Família" />
+      </section>
     </Container>
   );
 }

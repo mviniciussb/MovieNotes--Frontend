@@ -7,6 +7,7 @@ export default {
     GRAY_1: "#999591",
     GRAY_2: "#948F99",
     GRAY_3: "#CAC4CF",
+    GRAY_4: "#B3B0A8",
 
     BACKGROUND_1: "#0D0C0F",
     BACKGROUND_2: "#1C1B1E",

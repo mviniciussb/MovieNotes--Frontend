@@ -36,4 +36,16 @@ export const Container = styled.div`
 
     margin: 1.5rem 0;
   }
+
+  > section {
+    display: flex;
+    gap: .8rem;
+
+    span {
+    color: ${({ theme }) => theme.COLORS.GRAY_4};
+
+    }
+  }
+
+  
 `;

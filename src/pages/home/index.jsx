@@ -25,9 +25,10 @@ export function Home() {
         </div>
 
         <section>
-          <Note/>
+          <Note
+            title="Interestellar"
+          />
         </section>
-        
       </Main>
     </Container>
   );

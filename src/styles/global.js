@@ -43,7 +43,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: ${({ theme }) => theme.COLORS.PINK};
+        background-color: ${({ theme }) => theme.COLORS.RED};
         border-radius: .6rem;
     }
 `;

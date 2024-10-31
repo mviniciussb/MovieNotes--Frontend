@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: 100vh;
+    height: 100%;
+    
 `
 
 export const Main = styled.main`
@@ -35,5 +36,14 @@ export const Main = styled.main`
                 font-size: 2rem;
             }
         }
+    }
+
+    > section {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+
+        max-height: 58vh;
+        overflow-y: auto;
     }
 `;
