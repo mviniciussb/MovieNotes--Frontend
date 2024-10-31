@@ -28,7 +28,7 @@ export const Informations = styled.div`
     align-items: center;
     gap: .8rem;
 
-    margin-top: 4.2rem;
+    margin-top: 2.1rem;
     color: ${({ theme }) => theme.COLORS.RED};
 
     svg {
@@ -78,6 +78,13 @@ export const Informations = styled.div`
         display: flex;
         align-items: center;
         gap: .8rem;
+    }
+
+    &:nth-child(3){
+        svg {
+                        stroke: ${({ theme }) => theme.COLORS.RED};
+
+        }
     }
   }
 `
