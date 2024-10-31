@@ -95,7 +95,13 @@ export const Tags = styled.div`
 
      margin: 4rem 0;
 `
-export const Content = styled.p`
-    text-align: justify;
+export const Content = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    p {
+        text-align: justify;
     color: ${({ theme }) => theme.COLORS.GRAY_4};
+    }
 `
