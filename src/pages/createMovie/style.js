@@ -6,11 +6,16 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   width: 113.7rem;
+  height: min-content;
+  margin: 4rem auto 9rem;
+
+  overflow-y: auto;
 
   > a {
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    margin-bottom: 2.4rem;
 
     color: ${({ theme }) => theme.COLORS.RED};
   }
@@ -21,8 +26,36 @@ export const Form = styled.form`
     color: ${({ theme }) => theme.COLORS.WHITE_3};
   }
 
-  > .input-wrapper{
+  > .input-wrapper {
     display: flex;
     gap: 4rem;
+    margin: 4rem 0;
+  }
+
+  > h3 {
+    margin: 4rem 0 2.4rem;
+    font-size: 2rem;
+    color: ${({ theme }) => theme.COLORS.GRAY_1};
+  }
+
+  > .markers {
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1};
+
+    display: flex;
+    gap: 2.4rem;
+
+    border-radius: 0.8rem;
+    padding: 1.6rem;
+    margin-bottom: 4rem;
+  }
+
+  > .buttons {
+    display: flex;
+    gap: 4rem;
+
+    button:nth-child(1) {
+      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1};
+      color: ${({ theme }) => theme.COLORS.RED};
+    }
   }
 `;
