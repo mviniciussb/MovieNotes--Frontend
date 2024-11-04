@@ -14,4 +14,8 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE_2};
     font-size: 2.4rem;
   }
+
+  > footer{
+    padding-top: 1.5rem;
+  }
 `;

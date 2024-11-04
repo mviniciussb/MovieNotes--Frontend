@@ -64,14 +64,5 @@ export const Main = styled.main`
 
       margin: 1.5rem 0;
     }
-
-    .tags {
-      display: flex;
-      gap: 0.8rem;
-
-      span {
-        color: ${({ theme }) => theme.COLORS.GRAY_4};
-      }
-    }
   }
 `;

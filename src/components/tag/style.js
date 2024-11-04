@@ -8,4 +8,6 @@ export const Container = styled.span`
     text-align: center;
     font-size: 1.2rem;
     padding: .5rem 1.6rem;
+
+    margin-right: .8rem;
 `
