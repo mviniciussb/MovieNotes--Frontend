@@ -46,6 +46,10 @@ export const Informations = styled.div`
         color: ${({ theme }) => theme.COLORS.WHITE_3};
 
     }
+
+    svg {
+        font-size: 2.2rem;
+    }
   }
 
   > .change {
