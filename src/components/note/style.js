@@ -26,15 +26,13 @@ export const Header = styled.header`
 `
 
 export const Main = styled.main`
-
-  
       color: ${({ theme }) => theme.COLORS.GRAY_1};
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
-    
+      text-align: justify;
 `
 export const Footer = styled.footer`
 
