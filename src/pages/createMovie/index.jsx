@@ -6,6 +6,7 @@ import { Header } from "../../components/header";
 import { Input } from "../../components/input";
 import { TextArea } from "../../components/textarea";
 import { Button } from "../../components/button";
+import {NoteItem} from "../../components/noteItem"
 
 export function CreateMovie() {
   return (
@@ -17,6 +18,7 @@ export function CreateMovie() {
           <FiArrowLeft />
           Voltar
         </a>
+        
         <h2>Novo filme</h2>
 
         <div className="input-wrapper">
@@ -27,7 +29,10 @@ export function CreateMovie() {
         <TextArea placeholder="Observações" />
 
         <h3>Marcadores</h3>
-        <div className="markers"></div>
+        <div className="markers">
+          <NoteItem value="React"/>
+          <NoteItem isNew={true} />
+        </div>
 
         <div className="buttons">
           <Button title="Excluir filme" />

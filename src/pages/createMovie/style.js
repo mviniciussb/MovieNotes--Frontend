@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100vh;
+  height: 100%;
 `;
 
 export const Form = styled.form`
   width: 113.7rem;
-  height: min-content;
-  margin: 4rem auto 9rem;
+  height: 58.1rem;
+  margin: 2rem auto 0;
 
+  padding-right: 2.4rem;
   overflow-y: auto;
 
   > a {
@@ -52,6 +53,7 @@ export const Form = styled.form`
   > .buttons {
     display: flex;
     gap: 4rem;
+    
 
     button:nth-child(1) {
       background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1};
