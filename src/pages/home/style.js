@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100%;
+  height: 100vh;
 `;
 
 export const Main = styled.main`
@@ -10,6 +10,11 @@ export const Main = styled.main`
   display: flex;
   flex-direction: column;
   gap: 3.7rem;
+
+  overflow-y: auto;
+
+  height: 50rem;
+  padding-right: 1.6rem;
 
   > .title-page {
     display: flex;
@@ -33,36 +38,6 @@ export const Main = styled.main`
       svg {
         font-size: 2rem;
       }
-    }
-  }
-
-  > section {
-    display: flex;
-    flex-direction: column;
-    gap: 2.4rem;
-
-    max-height: 58vh;
-    overflow-y: auto;
-
-    .rating {
-      margin-top: 0.4rem;
-
-      svg {
-        stroke: ${({ theme }) => theme.COLORS.GRAY_1};
-        /* fill: ${({ theme }) => theme.COLORS.GRAY_1}; */
-      }
-    }
-
-    p {
-      color: ${({ theme }) => theme.COLORS.GRAY_1};
-      max-height: 5.2rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-
-      margin: 1.5rem 0;
     }
   }
 `;
