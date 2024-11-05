@@ -3,6 +3,7 @@ import { FiStar, FiArrowLeft, FiClock } from "react-icons/fi";
 
 import { Header } from "../../components/header";
 import { Tag } from "../../components/tag";
+import { Rating } from "../../components/rating";
 
 export function MoviePreview() {
   return (
@@ -10,38 +11,38 @@ export function MoviePreview() {
       <Header />
 
       <Main>
+        <a href="#">
+          <FiArrowLeft />
+          Voltar
+        </a>
+
         <Informations>
-          <a href="#">
-            <FiArrowLeft />
-            Voltar
-          </a>
           <div className="title-page">
             <h2>Interestellar</h2>
-            <div className="rating">
-              <FiStar />
-              <FiStar />
-              <FiStar />
-              <FiStar />
-              <FiStar />
-            </div>
+            <Rating value={3} />
           </div>
+
           <div className="change">
             <img
               src="https://github.com/mviniciussb.png"
               alt="Foto do usuário"
             />
+
             <span>Por Marcos Vinicius</span>
+
             <span className="date">
               <FiClock />
               23/05/22 às 08:00
             </span>
           </div>
+
+          <Tags>
+            <Tag title="Ficção Científica" />
+            <Tag title="Drama" />
+            <Tag title="Família" />
+          </Tags>
         </Informations>
-        <Tags>
-          <Tag title="Ficção Científica" />
-          <Tag title="Drama" />
-          <Tag title="Família" />
-        </Tags>
+
         <Content>
           <p>
             Pragas nas colheitas fizeram a civilização humana regredir para uma

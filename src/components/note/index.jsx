@@ -8,7 +8,7 @@ export function Note({ data }) {
     <Container>
       <Header>
         <h2>{data.title}</h2>
-        <Rating data={data} />
+        <Rating value={data.rating} />
       </Header>
 
       <Main>{data.description}</Main>

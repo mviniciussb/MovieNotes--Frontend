@@ -13,14 +13,6 @@ export const Main = styled.main`
     padding-right: 2.4rem;
 
     overflow-y: auto;
-`
-
-export const Informations = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 2.4rem;
-
-    overflow-y: auto;
 
     > a {
     display: flex;
@@ -30,11 +22,17 @@ export const Informations = styled.div`
 
     margin-top: 2.1rem;
     color: ${({ theme }) => theme.COLORS.RED};
-
-    svg {
-        font-size: 2rem;
     }
-  }
+`
+
+export const Informations = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    overflow-y: auto;
+
+    margin-top: 2rem;
 
   > .title-page {
     display: flex;
@@ -47,17 +45,6 @@ export const Informations = styled.div`
 
         color: ${({ theme }) => theme.COLORS.WHITE_3};
 
-    }
-
-    .rating {
-        display: flex;
-        gap: 1rem;
-        svg {
-            font-size: 2rem;
-
-            stroke: ${({ theme }) => theme.COLORS.GRAY_1};
-            /* fill: ${({ theme }) => theme.COLORS.GRAY_1}; */
-        }
     }
   }
 
@@ -78,14 +65,15 @@ export const Informations = styled.div`
         display: flex;
         align-items: center;
         gap: .8rem;
-    }
-
-    &:nth-child(3){
-        svg {
-                        stroke: ${({ theme }) => theme.COLORS.RED};
-
+        
+        &:nth-child(3){
+            svg {
+                stroke: ${({ theme }) => theme.COLORS.RED};
+    
+            }
         }
     }
+
   }
 `
 
@@ -93,7 +81,7 @@ export const Tags = styled.div`
      display: flex;
      gap: .8rem;
 
-     margin: 4rem 0;
+     margin: 1rem 0 4rem;
 `
 export const Content = styled.div`
     display: flex;
