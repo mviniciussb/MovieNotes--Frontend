@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 100%;
+
 `;
 
 export const Form = styled.form`
@@ -53,6 +54,8 @@ export const Form = styled.form`
   > .buttons {
     display: flex;
     gap: 4rem;
+
+    margin-bottom: 5rem;
     
 
     button:nth-child(1) {

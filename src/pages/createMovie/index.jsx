@@ -18,7 +18,7 @@ export function CreateMovie() {
           <FiArrowLeft />
           Voltar
         </a>
-        
+
         <h2>Novo filme</h2>
 
         <div className="input-wrapper">
@@ -30,8 +30,8 @@ export function CreateMovie() {
 
         <h3>Marcadores</h3>
         <div className="markers">
-          <NoteItem value="React"/>
-          <NoteItem isNew={true} />
+          <NoteItem value="React" placeholder="Novo marcador" />
+          <NoteItem isNew={true} placeholder="Novo marcador" />
         </div>
 
         <div className="buttons">

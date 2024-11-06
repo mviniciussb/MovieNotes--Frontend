@@ -30,7 +30,6 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE_1};
     background: transparent;
     border: 0;
-    width: 15rem;
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_2};
