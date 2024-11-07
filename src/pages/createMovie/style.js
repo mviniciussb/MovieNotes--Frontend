@@ -56,9 +56,8 @@ export const Form = styled.form`
     gap: 4rem;
 
     margin-bottom: 5rem;
-    
 
-    button:nth-child(1) {
+    a:nth-child(1) {
       background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1};
       color: ${({ theme }) => theme.COLORS.RED};
     }

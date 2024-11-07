@@ -11,7 +11,7 @@ export function Home() {
       <Main>
         <div className="title-page">
           <h2>Meus filmes</h2>
-          <Button
+          <Button to="/createmovie"
             title={
               <>
                 <FiPlus />

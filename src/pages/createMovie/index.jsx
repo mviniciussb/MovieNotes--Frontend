@@ -8,16 +8,19 @@ import { TextArea } from "../../components/textarea";
 import { Button } from "../../components/button";
 import {NoteItem} from "../../components/noteItem"
 
+import { Link } from "react-router-dom";
+
+
 export function CreateMovie() {
   return (
     <Container>
       <Header />
 
       <Form>
-        <a href="#">
+        <Link to="/">
           <FiArrowLeft />
           Voltar
-        </a>
+        </Link>
 
         <h2>Novo filme</h2>
 

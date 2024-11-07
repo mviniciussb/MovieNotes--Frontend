@@ -11,7 +11,7 @@ export function Header(){
           <Input placeholder="Pesquisar pelo título" />
         </div>
 
-        <Avatar>
+        <Avatar to="/profile" >
           <div className="user-wrapper">
             <span>Marcos Vinicius</span>
             <a href="#">sair</a>

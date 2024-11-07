@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import {CreateMovie} from "./pages/createMovie"
+import {Routes} from "./routes"
 
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./styles/global";
@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <CreateMovie/>
+      <Routes/>
     </ThemeProvider>
   </StrictMode>
 );

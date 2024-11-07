@@ -5,16 +5,18 @@ import { Header } from "../../components/header";
 import { Tag } from "../../components/tag";
 import { Rating } from "../../components/rating";
 
+import { Link } from "react-router-dom";
+
 export function MoviePreview() {
   return (
     <Container>
       <Header />
 
       <Main>
-        <a href="#">
+        <Link to="/">
           <FiArrowLeft />
           Voltar
-        </a>
+        </Link>
 
         <Informations>
           <div className="title-page">
