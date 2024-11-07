@@ -13,7 +13,7 @@ export const Main = styled.main`
 
   overflow-y: auto;
 
-  height: 50rem;
+  height: 70%;
   padding-right: 1.6rem;
 
   > .title-page {

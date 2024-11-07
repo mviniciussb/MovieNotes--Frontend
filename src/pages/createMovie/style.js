@@ -7,7 +7,7 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   width: 113.7rem;
-  height: 58.1rem;
+  height: 60rem;
   margin: 2rem auto 0;
 
   padding-right: 2.4rem;
@@ -53,9 +53,8 @@ export const Form = styled.form`
 
   > .buttons {
     display: flex;
+    justify-content: right;
     gap: 4rem;
-
-    margin-bottom: 5rem;
 
     a:nth-child(1) {
       background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1};
