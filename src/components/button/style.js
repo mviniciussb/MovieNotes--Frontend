@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
-export const Container = styled(Link)`
+export const Container = styled.button`
 
   background-color: ${({ theme }) => theme.COLORS.RED};
-  color: ${({ theme }) => theme.COLORS.BACKGROUND_4};
+  color: ${({ theme }) => theme.COLORS.BACKGROUND_2};
 
   font-weight: 500;
 
