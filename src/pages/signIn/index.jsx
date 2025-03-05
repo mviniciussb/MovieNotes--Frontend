@@ -6,7 +6,13 @@ import { Button } from "../../components/button";
 
 import {Link} from "react-router-dom"
 
+import { useAuth } from "../../hooks/auth";
+
 export function SignIn() {
+
+  const data = useAuth()
+  
+
   return (
     <Container>
       <Form>

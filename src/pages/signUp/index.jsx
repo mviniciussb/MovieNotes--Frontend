@@ -8,17 +8,14 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { useState } from "react";
 
-import api from "../../service/api"
-
-
+import api from "../../service/api";
 
 export function SignUp() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const navigate = useNavigate()
-
+  const navigate = useNavigate();
 
   async function handleSignUp() {
     if (!name || !email || !password) {
@@ -28,9 +25,13 @@ export function SignUp() {
     try {
       await api.post("/users", { name, email, password });
       alert("Usuário cadastrado com sucesso!");
-      navigate("/")
+      navigate("/");
     } catch (error) {
-      alert("Não foi possível cadastrar.");
+      if (error.response) {
+        alert(error.response.data.message);
+      } else {
+        alert("Não foi possível cadastrar.");
+      }
     }
   }
 
