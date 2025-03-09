@@ -53,5 +53,6 @@ export const Avatar = styled.div`
     height: 6.4rem;
     width: 6.4rem;
     border-radius: 50%;
+    cursor: pointer;
   }
 `;

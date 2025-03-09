@@ -20,6 +20,10 @@ export function Header() {
     signOut();
   }
 
+  function handleProfile(){
+    navigate("/profile");
+  }
+
   return (
     <Container>
       <h1>RocketMovies</h1>
@@ -34,7 +38,7 @@ export function Header() {
           <button onClick={handleSignOut}>Sair</button>
         </div>
 
-        <img src={avatarURL} alt="Imagem do usuário" />
+        <img onClick={handleProfile} src={avatarURL} alt="Imagem do usuário" />
       </Avatar>
     </Container>
   );
