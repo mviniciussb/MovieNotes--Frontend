@@ -4,7 +4,7 @@ import { FiMail, FiLock, FiUser, FiArrowLeft } from "react-icons/fi";
 import { Input } from "../../components/input";
 import { Button } from "../../components/button";
 
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import { useState } from "react";
 
@@ -16,6 +16,10 @@ export function SignUp() {
   const [password, setPassword] = useState("");
 
   const navigate = useNavigate();
+
+  function handleBackHome() {
+    navigate("/");
+  }
 
   async function handleSignUp() {
     if (!name || !email || !password) {
@@ -69,10 +73,10 @@ export function SignUp() {
 
         <Button title="Cadastrar" onClick={handleSignUp} />
 
-        <Link to="/">
+        <button onClick={handleBackHome}>
           <FiArrowLeft />
           Voltar para o login
-        </Link>
+        </button>
       </Form>
     </Container>
   );

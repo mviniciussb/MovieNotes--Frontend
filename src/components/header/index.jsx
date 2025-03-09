@@ -1,7 +1,7 @@
 import { Container, Avatar } from "./style";
 import { useAuth } from "../../hooks/auth.jsx";
 import api from "../../service/api.js";
-import avatarPlaceholder from "../../assets/avatar_placeholder.svg";
+import avatarPlaceholder from "../../assets/user-circle-thin.svg";
 import { useNavigate } from "react-router-dom";
 
 import { Input } from "../../components/input";

@@ -47,14 +47,19 @@ export const Form = styled.form`
     margin-bottom: 2.4rem;
   }
 
-  > a {
+  > button:nth-of-type(2) {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .8rem;
 
-    margin-top: 4.2rem;
+    margin: 4.2rem auto 0;
     color: ${({ theme }) => theme.COLORS.RED};
+
+    background: none;
+    border: none;
+
+    max-width: max-content;
 
     svg {
         font-size: 2rem;
