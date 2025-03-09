@@ -47,10 +47,12 @@ export const Form = styled.form`
     margin-bottom: 2.4rem;
   }
 
-  > a {
-    text-align: center;
-    margin-top: 4.2rem;
+  > button:nth-of-type(2) {
     color: ${({ theme }) => theme.COLORS.RED};
+    border: none;
+    background: none;
+    width: max-content;
+    margin: 4.2rem auto 0;
   }
 `;
 

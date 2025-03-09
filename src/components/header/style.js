@@ -38,8 +38,11 @@ export const Avatar = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE_3};
     }
 
-    a {
+    button {
       color: ${({ theme }) => theme.COLORS.GRAY_2};
+      background: none;
+      border: none;
+      width: min-content;
     }
   }
 

@@ -11,7 +11,8 @@ export function Home() {
       <Main>
         <div className="title-page">
           <h2>Meus filmes</h2>
-          <Button to="/createmovie"
+          <Button
+            to="/createmovie"
             title={
               <>
                 <FiPlus />
@@ -51,7 +52,6 @@ export function Home() {
             ],
           }}
         ></Note>
-        
       </Main>
     </Container>
   );
