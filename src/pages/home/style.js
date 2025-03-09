@@ -2,18 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 100vh;
-`;
+  overflow-y: hidden;
+  `
+  ;
 
 export const Main = styled.main`
   max-width: 113.7rem;
   margin: 5rem auto;
   display: flex;
   flex-direction: column;
-  gap: 3.7rem;
-
-  overflow-y: auto;
-
-  height: 70%;
   padding-right: 1.6rem;
 
   > .title-page {
@@ -24,7 +21,6 @@ export const Main = styled.main`
     h2 {
       font-weight: 400;
       font-size: 3.2rem;
-
       color: ${({ theme }) => theme.COLORS.WHITE_2};
     }
 
@@ -39,5 +35,15 @@ export const Main = styled.main`
         font-size: 2rem;
       }
     }
+  }
+
+  > .all-notes-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+    margin-top: 5rem;
+    height: 40rem;
+    overflow-y: auto;  /* Aqui está o overflow-y adicionado */
+    padding-right: 0.6rem;
   }
 `;
