@@ -50,8 +50,8 @@ export const Avatar = styled.div`
   }
 
   > img {
-    height: 6.4rem;
-    width: 6.4rem;
+    height: 5.4rem;
+    width: 5.4rem;
     border-radius: 50%;
     cursor: pointer;
   }
