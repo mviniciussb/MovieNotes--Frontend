@@ -1,7 +1,7 @@
 import { Container, Avatar } from "./style";
 import { useAuth } from "../../hooks/auth.jsx";
 import api from "../../service/api.js";
-import avatarPlaceholder from "../../assets/person.png";
+import avatarPlaceholder from "../../assets/avatar_placeholder.svg";
 import { useNavigate } from "react-router-dom";
 
 import { Input } from "../../components/input";
@@ -34,7 +34,7 @@ export function Header() {
           <button onClick={handleSignOut}>Sair</button>
         </div>
 
-        <img src="https://github.com/mviniciussb.png" alt="Imagem do usuário" />
+        <img src={avatarURL} alt="Imagem do usuário" />
       </Avatar>
     </Container>
   );

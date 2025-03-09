@@ -24,13 +24,15 @@ export const Container = styled.header`
 
 export const Avatar = styled.div`
   display: flex;
-  gap: 0.9rem;
+  align-items: center; /* Alinha a imagem e a div verticalmente */
+  gap: 1rem; /* Espaçamento entre a imagem e a div (ajuste conforme necessário) */
 
-  > .user-wrapper {
+  .user-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: end;
+    justify-content: flex-end;  
+    align-items: flex-end;      
+    text-align: end;            
 
     span {
       display: flex;
@@ -43,6 +45,7 @@ export const Avatar = styled.div`
       background: none;
       border: none;
       width: min-content;
+      font-size: 1.6rem;
     }
   }
 
@@ -50,6 +53,5 @@ export const Avatar = styled.div`
     height: 6.4rem;
     width: 6.4rem;
     border-radius: 50%;
-    border: 0.1rem solid ${({ theme }) => theme.COLORS.BACKGROUND_5};
   }
 `;
