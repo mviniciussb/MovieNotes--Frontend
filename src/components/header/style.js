@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const Container = styled.header`
   width: 100%;
@@ -23,7 +22,7 @@ export const Container = styled.header`
   }
 `;
 
-export const Avatar = styled(Link)`
+export const Avatar = styled.div`
   display: flex;
   gap: 0.9rem;
 
