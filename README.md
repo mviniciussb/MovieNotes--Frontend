@@ -2,7 +2,7 @@
 
 **Descrição:**
 
-O *Movie Notes* é uma aplicação web desenvolvida para armazenar e gerenciar notas de filmes, permitindo aos usuários fazer anotações sobre os filmes que assistiram, atribuir tags e filtrar os filmes por nome das notas. A interface interativa e moderna foi criada com React e Styled-Components, utilizando *Vite* para a configuração e build do projeto. O objetivo principal é proporcionar uma maneira prática de armazenar e categorizar filmes, com uma experiência de usuário fluida e eficiente.
+   O *Movie Notes* é uma aplicação web desenvolvida para armazenar e gerenciar notas de filmes, permitindo aos usuários fazer anotações sobre os filmes que assistiram, atribuir tags e filtrar os filmes por nome das notas. A interface interativa e moderna foi criada com React e Styled-Components, utilizando *Vite* para a configuração e build do projeto. O objetivo principal é proporcionar uma maneira prática de armazenar e categorizar filmes, com uma experiência de usuário fluida e eficiente.
 
 ---
 
@@ -35,7 +35,7 @@ O *Movie Notes* é uma aplicação web desenvolvida para armazenar e gerenciar n
 
 3. **Instale as dependências:**
 
-Se você ainda não tiver as dependências instaladas, execute o comando:
+   Se você ainda não tiver as dependências instaladas, execute o comando:
 
    ```bash
    npm install
@@ -43,7 +43,7 @@ Se você ainda não tiver as dependências instaladas, execute o comando:
 
 4. **Inicie o servidor de desenvolvimento:**
 
-Após a instalação, inicie o servidor de desenvolvimento com o comando:
+   Após a instalação, inicie o servidor de desenvolvimento com o comando:
 
    ```bash
    npm run dev
