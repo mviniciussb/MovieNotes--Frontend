@@ -29,26 +29,26 @@ O *Movie Notes* é uma aplicação web desenvolvida para armazenar e gerenciar n
 
 2. **Acesse o diretório do projeto:**
 
-```bash
-cd MovieNotes--Frontend
-```
+   ```bash
+   cd MovieNotes--Frontend
+   ```
 
 3. **Instale as dependências:**
 
 Se você ainda não tiver as dependências instaladas, execute o comando:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 4. **Inicie o servidor de desenvolvimento:**
 
 Após a instalação, inicie o servidor de desenvolvimento com o comando:
 
-```bash
-npm run dev
-```
-
+   ```bash
+   npm run dev
+   ```
+   
 **Como usar:**
 
 1. Acesse o projeto em http://localhost:3333 após rodar o servidor local.
